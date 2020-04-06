@@ -1,0 +1,17 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Download Sample</title>
+</head>
+<body>
+    <script type='text/javascript'>
+            function handleDownload() {
+                var content = 'あいうえお';
+                var blob = new Blob([ content ], { "type" : "text/html" });
+                document.getElementById("download").href = window.URL.createObjectURL(blob);
+            }
+    </script>
+    <a id="download" href="#" download="test.html" onclick="handleDownload()">ダウンロード</a>
+</body>
+</html>

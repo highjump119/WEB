@@ -7,8 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Webページ制作\JavaScript\Script1.js = ..\..\..\Webページ制作\JavaScript\Script1.js
 		..\..\..\Webページ制作\JavaScript\StyleSheet1.css = ..\..\..\Webページ制作\JavaScript\StyleSheet1.css
+		..\..\..\..\..\Downloads\test.html = ..\..\..\..\..\Downloads\test.html
 		..\..\..\Webページ制作\JavaScript\ひな形.html = ..\..\..\Webページ制作\JavaScript\ひな形.html
 		クリック.html = クリック.html
+		ファイル作成.html = ファイル作成.html
 	EndProjectSection
 EndProject
 Global
