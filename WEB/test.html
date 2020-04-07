@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>イベントハンドラ</title>
+    <script>
+        function func1(str) {
+            alert(str + "がクリックされました");
+        }
+
+        function init() {
+            alert("ドキュメントがロードされました");
+        }
+        window.onload = init;
+    </script>
+</head>
+<body>
+    <form id="myForm", name="myForm">
+        <p>
+            <input type="button" value="ボタン1"name="button1"onclick="func1('ボタン1');" />
+        </p>
+    </form>
+</body>
+</html>
