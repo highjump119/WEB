@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>Ajaxtest</title>
@@ -7,27 +8,28 @@
         body {
             text-align: center;
         }
-    
+
         #myArea {
             background: yellow;
         }
     </style>
     <script>
         var req;
-        function getfile(path){
+        function getfile(path) {
             req = new XMLHttpRequest();
             req.onreadystatechange = showData;
-            req.open("GET",path,true);
+            req.open("GET", path, true);
             req.send(null);
         }
-        function showData(){
-            if (req.readyState == 4 && req.status == 200){
+        function showData() {
+            if (req.readyState == 4 && req.status == 200) {
                 document.getElementById("myArea").innerHTML = req.responseText;
             }
         }
     </script>
 
 </head>
+
 <body>
     <form name="myFotm">
         <p>
@@ -37,4 +39,5 @@
     <div id="myArea">
     </div>
 </body>
+
 </html>
